@@ -60,7 +60,7 @@ const tasks = new Listr([
 
 				delay(2000)
 					.then(() => {
-						observer.next(`${logSymbols.success} 7 passed`);
+						observer.next(`${logSymbols.success} 8 passed`);
 						return delay(2000);
 					})
 					.then(() => {
